@@ -19,6 +19,6 @@
     "typescript": "^5.2.2",
     "turbo": "latest"
   },
-  "workspaces": ["packages/*", "packages/transactional/.react-email", "apps/*"],
+  "workspaces": ["packages/*", "apps/*"],
   "packageManager": "npm@9.8.1"
 }
