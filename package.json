@@ -1,10 +1,10 @@
 {
-  "name": "react-email-turborepo-bun-example",
+  "name": "react-email-turborepo-npm-example",
   "private": true,
   "scripts": {
-    "build": "turbo build --filter=!react-email-client",
-    "dev": "turbo dev --filter=!react-email-client",
-    "lint": "turbo lint --filter=!react-email-client",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
@@ -19,6 +19,6 @@
     "typescript": "^5.2.2",
     "turbo": "latest"
   },
-  "workspaces": ["packages/*", "packages/transactional/.react-email", "apps/*"],
+  "workspaces": ["packages/*", "apps/*"],
   "packageManager": "npm@9.8.1"
 }
