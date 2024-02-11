@@ -1,5 +1,5 @@
 {
-  "name": "react-email-turborepo-bun-example",
+  "name": "react-email-turborepo-npm-example",
   "private": true,
   "scripts": {
     "build": "turbo build --filter=!react-email-client",
