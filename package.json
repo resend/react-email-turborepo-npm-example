@@ -20,5 +20,5 @@
     "turbo": "latest"
   },
   "workspaces": ["packages/*", "apps/*"],
-  "packageManager": "npm@9.8.1"
+  "packageManager": "npm@9.9.4"
 }
