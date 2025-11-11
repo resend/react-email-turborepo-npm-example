@@ -1,24 +1,17 @@
 {
-  "name": "react-email-turborepo-npm-example",
-  "private": true,
-  "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "prettier": "^3.1.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0",
-    "@vercel/style-guide": "^5.1.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-config-turbo": "^1.10.12",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "styled-jsx": "^5.1.2",
-    "typescript": "^5.2.2",
-    "turbo": "latest"
-  },
-  "workspaces": ["packages/*", "apps/*"],
-  "packageManager": "npm@9.8.1"
+	"name": "react-email-turborepo-npm-example",
+	"private": true,
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev"
+	},
+	"devDependencies": {
+		"typescript": "^5.2.2",
+		"turbo": "latest"
+	},
+	"workspaces": [
+		"packages/*",
+		"apps/*"
+	],
+	"packageManager": "npm@11.4.0"
 }
