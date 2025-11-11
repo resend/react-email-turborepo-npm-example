@@ -13,5 +13,5 @@
 		"packages/*",
 		"apps/*"
 	],
-	"packageManager": "npm@11.4.0"
+	"packageManager": "npm@11.6.2"
 }
