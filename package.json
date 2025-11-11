@@ -1,14 +1,17 @@
 {
-  "name": "react-email-turborepo-npm-example",
-  "private": true,
-  "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev"
-  },
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "turbo": "latest"
-  },
-  "workspaces": ["packages/*", "apps/*"],
-  "packageManager": "npm@11.4.0"
+	"name": "react-email-turborepo-npm-example",
+	"private": true,
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev"
+	},
+	"devDependencies": {
+		"typescript": "^5.2.2",
+		"turbo": "latest"
+	},
+	"workspaces": [
+		"packages/*",
+		"apps/*"
+	],
+	"packageManager": "npm@11.4.0"
 }
