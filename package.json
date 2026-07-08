@@ -6,7 +6,7 @@
 		"dev": "turbo dev"
 	},
 	"devDependencies": {
-		"typescript": "^5.2.2",
+		"typescript": "^7.0.0",
 		"turbo": "latest"
 	},
 	"workspaces": [
